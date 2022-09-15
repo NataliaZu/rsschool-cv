@@ -1,19 +1,20 @@
 # __Zubrilova Natalia__
-### Junior FE Developer
-
+### Junior FE Developer :baby_chick:
 ___
 #### Contact information
 ___
 
-**Phone:** +7 911 846 65 25
-**E-mail:** zubrilova_natalya@bk.ru
-**Telegram:** @NataliaZubrilova
-**GitHub:** @NataliaZu
-**LinkedIn:** [click here](https://www.linkedin.com/in/natalia-zubrilova-b64b23a5)
+* **Phone:** +7 911 846 65 25
+* **E-mail:** zubrilova_natalya@bk.ru
+* **Telegram:** @NataliaZubrilova
+* **GitHub:** @NataliaZu
+* **LinkedIn:** [click here](https://www.linkedin.com/in/natalia-zubrilova-b64b23a5)
 
 #### About Myself
 ___
-In progress
+Graduated Saint-Petersburg State University of Industrial Technologies and Design, specialist degree in Economics and Management (2014).
+Last four years had been working as IT recruiter in international companies: EPAM and Intermedia.
+Keen of user-friendly interface and photography :smiley:
 
 #### Skills
 ___
@@ -45,10 +46,12 @@ let getCount = (str) => {
 
 
 #### Courses
+___
 * [RS School Course «JavaScript/Front-end (in progress)](https://rs.school/js/)
 * [HTML, CSS](https://ru.code-basics.com/)
 * [JavaScript для начинающих](https://www.youtube.com/watch?v=CxgOKJh4zWE)
 
 #### Languages
+___
 * Russian- native
 * English- Upper-Intermediate
