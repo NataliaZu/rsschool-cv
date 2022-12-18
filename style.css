@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&family=Quicksand:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  background-color: #1D3557;
+  font-family: 'Quicksand';
+  color: #F1FAEE;
+  padding: 0;
+  margin: 0;   
+} 
+
+body {
+  min-height: 100vh;
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header { 
+  border: 3px solid #E63946;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  background-color: #1D3557;     
+}
+
+.header .menu ul {
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+  background-color: #1D3557;    
+}
+
+.header .menu ul li {
+  margin: 20px 10px; 
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: #E63946;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .header  {
+    flex-direction: column;
+  }
+  .header .menu ul {
+    flex-direction: column;
+    align-self: center;
+  }
+  .header .menu ul li {
+    margin: 5px;
+  }
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.container {
+  /*max-width: 1440px;*/
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  margin-top: 20px;
+  border: 3px solid #E63946;
+  padding: 5px;   
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  background: url(/assets/img/avatar.jpg) no-repeat 0 -30px;
+  background-size: cover;
+  border-radius: 50%; 
+  border: 3px solid #E63946; 
+  box-shadow: 0 0 7px #666;   
+ }
+
+.footer {
+  display: flex;   
+  justify-content: space-evenly;
+  align-items: center;
+  border: 3px solid #E63946;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+code {
+  display: block;
+  color: white;
+  background-color: #1D3557;
+}
+ 
+.li-main {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+
+.li-main::before {
+  content: '✶';
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+#Profile {  
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  text-align: center;  
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;  
+}
+
+.email-container {
+  display: flex;  
+  align-items: center;   
+}
+
+.telegram-container {
+  display: flex;  
+  align-items: center; 
+}
+
+.whatsapp-container {
+  display: flex;  
+  align-items: center; 
+}
+
+footer h3 {
+  color: black;
+}
+
