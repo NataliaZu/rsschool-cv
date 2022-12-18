@@ -2,8 +2,131 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>Пустой шаблон</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Arsenal:wght@400;700&family=Jura:wght@300;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> 
+  <title>CV Zubrilova Natalia</title>
+  <link rel="icon" href="./assets/img/favicon.ico">
 </head>
 <body>
+  <header class = "header">    
+    <nav class="menu">
+      <ul>
+        <li class="nav-item"><a href="#Profile" class="nav-link">Profile</a></li>        
+        <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
+        <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+        <li class="nav-item"><a href="#Code-example" class="nav-link">Code example</a></li>
+        <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+        <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+      </ul>
+    </nav>  
+  </header>
+  <main>    
+    <div class="container">
+      <section class="section" id="Profile">
+      <div class="avatar"></div>    
+  <h1>Junior Front-End developer</h1>
+  <h2>Zubrilova Natalia</h2>
+  <p>Hi there! My name is Natasha, I'm Junior Front-End developer with recruitment experience in international IT companies. </p>
+</section>
+    </div>
+    <div class="container">
+      <section class="section" id="Skills">
+        <h2>Skills</h2>
+        <ul class="ul">
+          <li class="li-main">JavaScript</li>
+          <li class="li-main">HTML5</li>
+          <li class="li-main">CSS</li>
+          <li class="li-main">GIT</li>
+          <li class="li-main">Photoshop</li>
+        </ul>
+</section>
+</div>
+<div class="container">
+  <section class="section" id="Education">
+    <h2>Education</h2>
+    <p>Saint-Petersburg State University of Industrial Technologies and Design,<br>Institute of Business Communications,<br>specialist degree in Economics and Management, 2014</p>
+  </section>
+</div>
+<div class="container">
+  <section class="section" id="Courses">
+    <h2>Code Basics Courses</h2>
+    <ul>
+      <li class="li-main">JavaScript</li>
+      <li class="li-main">HTML</li>
+      <li class="li-main">CSS</li>
+    </ul>
+  </section>
+</div>
+<div class="container">
+  <section class="section" id="Experience">    
+    <h2>Experience</h2>
+    <a href="https://www.epam.com/">Epam.com</a>
+      <h3>August 2021 - June 2022</h3>
+      <h4>Full recruitment cycle:</h4>
+      <ul>
+        <li class="li-main">Python developer (web/enterprise and Big Data)</li>
+        <li class="li-main">Cloud DevOps Engineer (AWS, GCP, Azure)</li>
+        <li class="li-main">mobile (iOS, Android, Flutter)</li>
+      </ul><br>
+    <a href="https://www.intermedia.com/">Intermedia.com</a> 
+    <h3>March 2018 - July 2021</h3>
+    <h4>Full recruitment cycle:</h4>
+    <ul>
+      <li class="li-main">Technical Support</li>
+      <li class="li-main">Project manager/Business Analyst</li>
+      <li class="li-main">DevOps</li>
+      <li class="li-main">UI/FE developer</li>
+      <li class="li-main">Systems Engineering</li>
+      <li class="li-main">Python developer</li></ul>
+  </section>
+</div>
+<div class="container">
+  <section class="section" id="Code-example">
+    <h2>Code example</h2>
+    <pre>
+      <code>function isPangram(string) {
+        let arrAlphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+        string = string.toLowerCase().replace(/[^a-zа-яё]/gi, '')
+        return arrAlphabet.every(el => string.includes(el))
+      }</code>
+      </pre>
+  </section>
+</div>
+<div class="container">
+  <section class="section" id="Languages">
+    <h2>Languages</h2>
+    <p>Russian - native<br>English - B2</p>
+  </section>
+</div>
+<div class="container">
+  <section class="section" id="Contacts">
+    <h2>Contacts</h2>
+        <div class="contacts-container">
+          <div class="email-container">
+            <img src="./assets/img/email.png" height="30" alt="email icon">
+            <p> Zubrilova_Natalya@bk.ru</p><br><br>        
+          </div>
+          <div class="telegram-container">
+            <img src="./assets/img/Logo_old.png" height="30" alt="tg icon">
+            <p>@ZubrilovaNatalia</p><br><br>
+          </div>
+          <div class="whatsapp-container">
+            <img src="./assets/img/whatsapp.png"  height="30" alt="wa icon">
+            <p>+7 (911) 846 65 25</p><br>
+          </div>
+        </div> 
+  </section>
+</div>
+</main>
+<footer class="footer">  
+    <a href="https://github.com/NataliaZu">
+    <img src="./assets/img/GitHub_Logo.png" height="30" alt="github logo"></a>
+    <h3>2022</h3>
+    <a href="https://rs.school/js/">
+      <img src="https://rs.school/images/rs_school_js.svg" height="30" alt="rs logo">
+    </a>  
+</footer>
 </body>
 </html>
